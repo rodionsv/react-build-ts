@@ -1,0 +1,13 @@
+:root {
+  /* Fonts */
+  --roboto: "Roboto", sans-serif;
+
+  /* Colors */
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Media */
+  --mobile-width: 320px;
+  --tablet-width: 768px;
+  --desktop-width: 1200px;
+}

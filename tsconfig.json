@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": ["dom", "DOM.Iterable", "esnext"],
+    "allowJs": true,
+    "checkJs": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@components*": ["components*"],
+      "@constants*": ["constants*"],
+      "@layouts*": ["layouts*"],
+      "@pages*": ["pages*"],
+      "@router*": ["router*"],
+      "@shared*": ["shared*"],
+      "@utils*": ["utils*"],
+      "@styles*": ["styles*"]
+    },
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "allowUnreachableCode": false,
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

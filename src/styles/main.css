@@ -1,0 +1,10 @@
+@import "global.css";
+@import "variables.css";
+
+body {
+  font-family: var(--roboto);
+
+  & h1 {
+    text-align: center;
+  }
+}
