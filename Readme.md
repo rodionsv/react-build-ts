@@ -48,7 +48,7 @@ npm run build
 ## The build uses Jest for unit testing and react-test-renderer for e2e testing 
 ## Npm command to start the tests
 ```sh
-npm run jest
+npm run test
 ```
 
 # Linters
